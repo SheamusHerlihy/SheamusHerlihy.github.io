@@ -1,0 +1,135 @@
+body {
+    background-color:floralwhite;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 75px;
+    gap: 20px;
+}
+
+.header a{
+    font-size:x-large;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: floralwhite;
+
+}
+
+.title {
+    font-size: 70px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.thumbnails {
+    height: 400px;
+    width: 45%;
+    border-radius: 30px;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+.thumbnailImage {
+    width: 100%;
+    background-color: darkgray;
+    height: 75%;
+    border-radius: 30px;
+    object-fit: cover;
+    border-bottom: 1px solid black; 
+}
+
+.thumbnailInfo {
+    position: relative;
+    width: 100%;
+    background-color: floralwhite;
+    display: flex;
+}
+
+.thumbnailInfo p {
+    font-size: x-large;
+    justify-self: center;
+    margin-left: 30px;
+}
+
+.thumbnailYear {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    margin-top: 10px;
+}
+
+.about {
+    display: flex;
+    margin-right:75px;
+}
+
+.about .title {
+    width: 60%;
+    flex: 0 0 350px;
+}
+
+.aboutInfo p {
+    margin: 30px;
+    font-size:x-large;
+    text-indent: 30px;
+}
+
+.aboutInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutButton {
+    font-size:x-large;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: large;
+    margin-top: 100px;
+}
+
+.links {
+     color: black;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.links:hover {
+    opacity: 0.7;
+}
+
+footer p {
+    align-self: flex-start;
+}
+
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
+
+.images{
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 50px;
+}
